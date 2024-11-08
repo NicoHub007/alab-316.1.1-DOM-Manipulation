@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
           link.classList.remove('active')
         })
         h1.textContent = `${evt.target.textContent}`
+        h1.textContent = h1.textContent.toUpperCase();
       })
     })
   }
